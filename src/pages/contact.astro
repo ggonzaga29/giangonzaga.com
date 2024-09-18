@@ -1,0 +1,16 @@
+---
+import Layout from "src/layouts/Layout.astro"
+import ContactForm from "src/components/contact/ContactForm.vue"
+---
+
+<Layout title="Contact | Gian Gonzaga" heading="Reach out to me" emojiIcon="📧">
+	<div>
+		<section class="space-y-3 mb-6">
+			<p class="max-w-xl">
+				Get in touch with me today! I'd love to hear from you. Fill out the contact form below and let's connect!
+			</p>
+		</section>
+		<ContactForm client:load/>
+	</div>
+</Layout>
+``
