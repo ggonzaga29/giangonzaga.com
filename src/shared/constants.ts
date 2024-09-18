@@ -15,7 +15,7 @@ export const projects: Project[] = [
   {
     title: "DFK Group",
     description:
-      "Real Estate website for a Germany-based company, DFK Group. Built with the Evelan Website Builder with Sanity CMS.",
+      "A real estate website for DFK Group, a Germany-based company. Built with the Evelan Website Builder and powered by Sanity CMS.",
     tags: ["Next.js (App Router)", "Typescript", "Tailwind", "Sanity CMS"],
     imageSrc: "/dfk-group.png",
     url: "www.dfkgroup.de",
@@ -23,7 +23,7 @@ export const projects: Project[] = [
   {
     title: "Evelan Website Builder (Evelan Website)",
     description:
-      "The new version of evelan.de, build with Sanity CMS, with pre-built sections for adapting to custom theming",
+      "The new version of evelan.de, built with Sanity CMS and featuring pre-built sections that adapt to custom themes.",
     tags: ["Next.js (App Router)", "Typescript", "Tailwind", "Sanity CMS"],
     imageSrc: "/evelan.png",
     url: "www.next.evelan.de",
@@ -31,7 +31,7 @@ export const projects: Project[] = [
   {
     title: "Shama Travel & Tours Dashboard",
     description:
-      "Real Estate website for a Germany-based company, DFK Group. Built with the Evelan Website Builder with Sanity CMS.",
+      "A dashboard for car rental company Shama Travel & Tours, built with Next.js and Supabase.",
     tags: [
       "Next.js (App Router)",
       "Typescript",
@@ -44,10 +44,10 @@ export const projects: Project[] = [
   {
     title: "sanity-plugin-ui-intl",
     description:
-      "Real Estate website for a Germany-based company, DFK Group. Built with the Evelan Website Builder with Sanity CMS.",
+      "An open-source NPM package for internationalizing UI in Sanity CMS. Automated deployment using GitHub Actions.",
     tags: ["NPM Package", "Open-Source", "Typescript", "Github Actions"],
     imageSrc: "/npm.webp",
-    url: 'www.github.com/evelan-de/sanity-plugin-ui-intl/'
+    url: "www.github.com/evelan-de/sanity-plugin-ui-intl/",
   },
 ];
 
@@ -81,6 +81,6 @@ export const socialLinks: Link[] = [
   },
   {
     label: "Github",
-    href: "https://github.com/ggonzaga29"
-  }
+    href: "https://github.com/ggonzaga29",
+  },
 ];
